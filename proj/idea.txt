@@ -5,3 +5,17 @@
 - Description: una empresa de videovigilancia. Info sobre sus productos, 
 con imagenes, contacto, mapa.
 
+Mapa del sitio:
+Barra de menú, con desplegables: inicio, productos, servicios, contacto, mi cuenta.
+En el inicio tendremos acceso a los productos y servicios más destacados. También, 
+si hay alguna novedad, se publica en la página de inicio.
+
+En productos tendremos la variedad de productos, entre camaras, televisores, etc.
+En servicios: instalación, mantenimiento.
+
+Contacto: telefonos, emails y mapa de localización.
+
+Mi cuenta: tiene que haber una registración de los clientes. Nombre de usuario, contraseña, 
+telefono y email del cliente. Los clientes en mi cuenta tendran disponible 
+
+
