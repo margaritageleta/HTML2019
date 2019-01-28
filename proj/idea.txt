@@ -10,26 +10,28 @@
 
 Mapa del sitio:
 Barra de menú, con desplegables: inicio, productos y servicios (se desplegan por topics), contacto, mi cuenta (log in o sign in).
-Arriba de todo tiene que haber el botón para cambiar el idioma de la página (español / ruso).
+Arriba de todo tiene que haber el botón para cambiar el idioma de la página (español / ruso / english?).
 
 En el inicio tendremos acceso a los productos y servicios más destacados. También, 
 si hay alguna novedad, se publica en la página de inicio.
 
-En productos tendremos la variedad de productos, entre camaras, televisores, etc. Se clasifican por topics:
-  - Audiovisuales (+ sonido).
-  - Televisión satélite.
-  - Televisión ip.
-  - Videovigiláncia.
-  - Sistemas de seguridad.
+En productos tendremos información , entre cámaras, televisores, etc. Se clasifican por topics:
+  - Audiovisuales (+ sonido, televisión satélite, televisión ip).
+  - Telecomunicaciones (internet móvil 4G, redes wi-fi, comunicaciones ip)
+  - Sistemas de seguridad (videovigilancia y alarmas).
   
 En servicios: instalación, mantenimiento.
 
-Contacto: 
+Notícias y eventos: links a otras páginas web, notícias del sector.
+
+Sobre nosotros y contacto: 
+ - Acerca de nosotros.
  - Información de contacto básica: horarios, teléfonos, emails y mapa de localización.
  - Contacto online: un formulario para enviar un mensaje al correo del admin.
 
 Mi cuenta: tiene que haber un formulario de registración de los clientes. Nombre de usuario, contraseña, 
 teléfono y email del cliente. Los clientes en mi cuenta tendran disponibles sus datos, podran descargar tarifas y programas
 de mantenimiento.
+
 
 
