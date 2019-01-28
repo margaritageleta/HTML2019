@@ -1,4 +1,4 @@
-- Title:
+- Title: sateliteHD
 
 - References:
 
@@ -9,12 +9,13 @@
 - Description: página web de una empresa. Informativa, sobre sus productos y servicios (NO tienda online).
 
 Mapa del sitio:
-Barra de menú, con desplegables: inicio, productos y servicios (se desplegan por topics), contacto, mi cuenta.
+Barra de menú, con desplegables: inicio, productos y servicios (se desplegan por topics), contacto, mi cuenta (log in o sign in).
+Arriba de todo tiene que haber el botón para cambiar el idioma de la página (español / ruso).
 
 En el inicio tendremos acceso a los productos y servicios más destacados. También, 
 si hay alguna novedad, se publica en la página de inicio.
 
-En productos tendremos la variedad de productos, entre camaras, televisores, etc. Se clasifican por topics¨
+En productos tendremos la variedad de productos, entre camaras, televisores, etc. Se clasifican por topics:
   - Audiovisuales (+ sonido).
   - Televisión satélite.
   - Televisión ip.
@@ -23,10 +24,12 @@ En productos tendremos la variedad de productos, entre camaras, televisores, etc
   
 En servicios: instalación, mantenimiento.
 
-Contacto: teléfonos, emails y mapa de localización.
+Contacto: 
+ - Información de contacto básica: horarios, teléfonos, emails y mapa de localización.
+ - Contacto online: un formulario para enviar un mensaje al correo del admin.
 
 Mi cuenta: tiene que haber un formulario de registración de los clientes. Nombre de usuario, contraseña, 
-teléfono y email del cliente. Los clientes en mi cuenta tendran disponible sus datos, podran descargar tarifas y programas
+teléfono y email del cliente. Los clientes en mi cuenta tendran disponibles sus datos, podran descargar tarifas y programas
 de mantenimiento.
 
 
