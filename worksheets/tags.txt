@@ -18,3 +18,6 @@ USE OF TAGS:
 - <sub></sub>	: defines subscript text.
 - <sup></sup>	: deines superscript text.
 - <legend></legend> : creates a title for a group of elements (fields).
+
+Empty tags are those which have no data between tags.
+For example <br> and <hr>.
