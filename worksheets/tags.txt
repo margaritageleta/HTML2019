@@ -1,0 +1,20 @@
+USE OF TAGS:
+
+- <br>		: a single break.
+- <hr>		: a horizontal line.
+- <ul></ul>	: an unordered list.
+- <ol></ol>	: an ordered list.
+- <li></li>	: defines a list item.
+- <strong></strong> : defines a format text for important text.
+- <b></b>	: specifies BOLD tetx.
+- <em></em>	: renders as emphasized text.
+- <i></i>	: specifies text in ITALICS.
+- <u></u>	: UNDERLINEs the text.
+- <h1></h1>	: defines HTML heading. The most important one.
+- <h6></h6>	: defines HTML heading. The least important one.
+- <tr></tr>	: defines a row in a table.
+- <th></th>	: defines a header cell in a table.
+- <td></td>	: defines a cell in a table.
+- <sub></sub>	: defines subscript text.
+- <sup></sup>	: deines superscript text.
+- <legend></legend> : creates a title for a group of elements (fields).
