@@ -3,23 +3,30 @@
 - References:
 
 	https://www.supersonido.es/
-	https://www.bower-wilkins.es/
+	https://www.bowers-wilkins.es/
 	https://www.dahuasecurity.com/es
 
-- Description: una empresa de videovigilancia. Info sobre sus productos, 
-con imagenes, contacto, mapa.
+- Description: página web de una empresa. Informativa, sobre sus productos y servicios (NO tienda online).
 
 Mapa del sitio:
-Barra de men�, con desplegables: inicio, productos, servicios, contacto, mi cuenta.
-En el inicio tendremos acceso a los productos y servicios m�s destacados. Tambi�n, 
-si hay alguna novedad, se publica en la p�gina de inicio.
+Barra de menú, con desplegables: inicio, productos y servicios (se desplegan por topics), contacto, mi cuenta.
 
-En productos tendremos la variedad de productos, entre camaras, televisores, etc.
-En servicios: instalaci�n, mantenimiento.
+En el inicio tendremos acceso a los productos y servicios más destacados. También, 
+si hay alguna novedad, se publica en la página de inicio.
 
-Contacto: telefonos, emails y mapa de localizaci�n.
+En productos tendremos la variedad de productos, entre camaras, televisores, etc. Se clasifican por topics¨
+  - Audiovisuales (+ sonido).
+  - Televisión satélite.
+  - Televisión ip.
+  - Videovigiláncia.
+  - Sistemas de seguridad.
+  
+En servicios: instalación, mantenimiento.
 
-Mi cuenta: tiene que haber una registraci�n de los clientes. Nombre de usuario, contrase�a, 
-telefono y email del cliente. Los clientes en mi cuenta tendran disponible 
+Contacto: teléfonos, emails y mapa de localización.
+
+Mi cuenta: tiene que haber un formulario de registración de los clientes. Nombre de usuario, contraseña, 
+teléfono y email del cliente. Los clientes en mi cuenta tendran disponible sus datos, podran descargar tarifas y programas
+de mantenimiento.
 
 
