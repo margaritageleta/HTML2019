@@ -78,11 +78,12 @@ Si el usuario clica a registrarse, se redirecciona a un formulario de registro:
 
 Formulario
 
-
+EDIT: resulta que sin una base de datos y un servidor es imposible hacer la gestion de los clientes y el registro con 
+contrasena y etc. A no ser que sea una simulacion.
 
 Mapa del sitio:
-Barra de menú, con desplegables: inicio, productos y servicios (se desplegan por topics), contacto, mi cuenta (log in o sign in).
-Arriba de todo tiene que haber el botón para cambiar el idioma de la página (español / ruso / english?).
+Barra de menú, con desplegables: inicio, productos y servicios (se desplegan por topics), contacto, mi cuenta 
+(log in o sign in). Arriba de todo tiene que haber el botón para cambiar el idioma de la página (español / ruso / english?).
 
 En el inicio tendremos acceso a los productos y servicios más destacados. También, 
 si hay alguna novedad, se publica en la página de inicio.
@@ -90,8 +91,7 @@ si hay alguna novedad, se publica en la página de inicio.
 En productos tendremos información , entre cámaras, televisores, etc. Se clasifican por topics:
   - Audiovisuales (+ sonido, televisión satélite, televisión ip).
   - Telecomunicaciones (internet móvil 4G, redes wi-fi, comunicaciones ip)
-  - Sistemas de seguridad (videovigilancia y alarmas).
-  
+  - Sistemas de seguridad (videovigilancia y alarmas).  
 En servicios: instalación, mantenimiento.
 
 Notícias y eventos: links a otras páginas web, notícias del sector.
@@ -103,7 +103,7 @@ Sobre nosotros y contacto:
 
 Mi cuenta: tiene que haber un formulario de registración de los clientes. Nombre de usuario, contraseña, 
 teléfono y email del cliente. Los clientes en mi cuenta tendran disponibles sus datos, podran descargar tarifas y programas
-de mantenimiento.
+de mantenimiento y podran realizar la compra de un producto especifico (la targeta de credito tambien se tiene que poner?).
 
 
 
