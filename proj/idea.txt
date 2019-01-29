@@ -5,8 +5,53 @@
 	https://www.supersonido.es/
 	https://www.bowers-wilkins.es/
 	https://www.dahuasecurity.com/es
+	https://www.kartina.tv
 
-- Description: página web de una empresa. Informativa, sobre sus productos y servicios (NO tienda online).
+- Description: página web de una empresa. Informativa, sobre sus productos y servicios. Venta online solo de un producto.
+
+Inicio
++-------------------------------------------------------------------------+
+|					|language ES | RU |	|log in|  | (1) Selección del idioma. (2) Log in.
++-------------------------------------------------------------------------+
+| inicio | productos y servicios | marcas | eventos y noticias | contacta | (3) Barra del menú.
++-------------------------------------------------------------------------+
+|									  |
++-------------------------------------------------------------------------+
+|									  |
+|									  |
+|			SLIDESHOW Fotos / videos			  | (4) Slideshow de fotos / videos.
+|									  |
+|									  |
++-------------------------------------------------------------------------+
+|   +------------------+    +------------------+   +------------------+   |
+|   |		       |    |                  |   |                  |   |
+|   |		       |    |                  |   |                  |   |
+|   |		       |    |                  |   |                  |   |
+|   |		       |    |                  |   |                  |   | (5) Productos y servicios destacados.
+|   |		       |    |                  |   |                  |   |
+|   |		       |    |                  |   |                  |   |
+|   +------------------+    +------------------+   +------------------+   |
+|								ver mas...| (6) Link que redirecciona a 
++-------------------------------------------------------------------------+     "productos y servicios".
+|   +------------------+    +------------------+   +------------------+   |
+|   |		       |    |                  |   |                  |   |
+|   |		       |    |                  |   |                  |   |
+|   |		       |    |                  |   |                  |   |
+|   |		       |    |                  |   |                  |   | (7) Eventos destacados y útlimas
+|   |		       |    |                  |   |                  |   |     notícias.
+|   |		       |    |                  |   |                  |   |
+|   +------------------+    +------------------+   +------------------+   |
+|								ver mas...| (8) Link que redirecciona a
++-------------------------------------------------------------------------+    "eventos y notícias".
+|  BOTTOM: mapa del sitio						  |
++-------------------------------------------------------------------------+
+
+(1) Selección del idioma: principalmente dos castellano y ruso. Opsionalmente se puede añadir el inglés.
+(2) Log in. Si el usuario no está registrado, debe registrarse, tiene que salir un foprmulario de registración (no sé si hay normativa acerca de qué información se puede pedir en un formulario y cómo va el tema del cifrado de la contraseña, etc). Básicamente, primero, para registrarse el usuario debe indicar si és un cliente o una empresa. A partir de ahí, hay que rellenar los campos que aparecen a continuación:
+
+
+
+
 
 Mapa del sitio:
 Barra de menú, con desplegables: inicio, productos y servicios (se desplegan por topics), contacto, mi cuenta (log in o sign in).
