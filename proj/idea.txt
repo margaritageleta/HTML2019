@@ -11,11 +11,11 @@
 
 Inicio
 +-------------------------------------------------------------------------+
-|					|language ES | RU |	|log in|  | (1) Selección del idioma. (2) Log in.
+| 					|language ES | RU |	|log in|  | (1) Selección del idioma. (2) Log in.
 +-------------------------------------------------------------------------+
 | inicio | productos y servicios | marcas | eventos y noticias | contacta | (3) Barra del menú.
 +-------------------------------------------------------------------------+
-|									  |
+|								Lupa	  |
 +-------------------------------------------------------------------------+
 |									  |
 |									  |
@@ -46,10 +46,37 @@ Inicio
 |  BOTTOM: mapa del sitio						  |
 +-------------------------------------------------------------------------+
 
-(1) Selección del idioma: principalmente dos castellano y ruso. Opsionalmente se puede añadir el inglés.
-(2) Log in. Si el usuario no está registrado, debe registrarse, tiene que salir un foprmulario de registración (no sé si hay normativa acerca de qué información se puede pedir en un formulario y cómo va el tema del cifrado de la contraseña, etc). Básicamente, primero, para registrarse el usuario debe indicar si és un cliente o una empresa. A partir de ahí, hay que rellenar los campos que aparecen a continuación:
+(1) Selección del idioma: principalmente dos castellano y ruso. Opcionalmente se puede añadir el inglés.
+(2) Log in. Si el usuario no está registrado, debe registrarse, tiene que salir un foprmulario de registración
+(no sé si hay normativa acerca de qué información se puede pedir en un formulario y cómo va el tema del cifrado 
+de la contraseña, etc). Básicamente, primero, para registrarse el usuario debe indicar si és un cliente o una empresa. 
+A partir de ahí, hay que rellenar los campos que aparecen a continuación:
 
+Log in
++-------------------------------------------------------------------------+
+|					|language ES | RU |	|log in|  | 
++-----------------------------------------+*******************************+
+| inicio | productos y servicios | marcas * Usuario    _________________  *
++-----------------------------------------* Contraseña _________________  * Aparece una ventana como esta...
+|					  *	        |ENTRA|		  *
++-----------------------------------------*     No tienes una cuenta?     * 
+|					  *           |REGISTER| 	  *
+|					  +*******************************+				  
+|			SLIDESHOW Fotos / videos			  | 
+|									  |
+|									  |
++-------------------------------------------------------------------------+
+|   +------------------+    +------------------+   +------------------+   |
+|   |		       |    |                  |   |                  |   |
+|   |		       |    |                  |   |                  |   |
+|   |		       |    |                  |   |                  |   |
+|   |		       |    |                  |   |                  |   | 
+|   |		       |    |                  |   |                  |   |
+|   |		       |    |                  |   |                  |   |
 
+Si el usuario clica a registrarse, se redirecciona a un formulario de registro:
+
+Formulario
 
 
 
