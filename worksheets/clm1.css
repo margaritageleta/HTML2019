@@ -1,0 +1,33 @@
+html {
+	background-color: rgb(255,204,255);
+	background-image: url("images/flower.png");
+}
+
+fieldset {
+	background-color: rgb(255, 255, 230);
+}
+
+fieldset > img {
+	border: 5px solid #ddd;
+	border-radius: 50%;
+}
+
+img:hover {
+  	box-shadow: 0 0 8px 4px 
+  	rgba(0, 140, 186, 0.5);
+}
+
+section {
+	background-color: rgb(255, 230, 230);
+}
+table, tr, td, th{
+	border-collapse: collapse;
+}
+td, th{
+	text-align: center;
+	border: 1px solid black;
+	width 20%;
+}
+table{
+	
+}
