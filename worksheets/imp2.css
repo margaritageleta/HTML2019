@@ -1,58 +1,121 @@
+/*GENERAL PROPERTIES OF THE GRID AND ITS ITEMS.*/
+/*The CSS code of the container.*/
 .container {
 	display: grid;
 	grid-template: 1fr 1fr / 1fr 1fr;
 	padding: 1px;
 	background-color: rgb(0,0,0);
-	margin: 50px;
-
-}
-.item{
+	margin-right: 70px;
+	margin-left: 70px; }
+.item{ /*The container has got 4 items. Each one containing a pic.*/
 	background-color: rgb(255,255,255);
 	margin: 1px;
 	position: relative;
 
 	display: flex;
 	justify-content: center;
-	align-items: center;
-}
-.item img{
+	align-items: center; }
+.item img{ /*Each pic is adjuested to the size of the item proportionally.*/
 	width: 100%;
-	height: auto;
-}
-.subitem{
-	opacity: 0;
-	transition: .5s ease;
+	height: auto; }
+.subitem{ /*Each item has got a subitem used for displaying a text when item hovers.*/
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	top: 0;
-
 	display: flex;
 	justify-content: center;
-	align-items: center;
-}
-
-.image {
-	opacity: 1;
-	transition: .5s ease;
-}
-.item:hover {
-	background-color: #4CAF50;
-	transition: 1.2s ease;
-}
-
-.item:hover .image{
+	align-items: center; }
+/*FIRST ITEM*/
+#subitem1{ /*Initially its subitem has opacity 0.*/
 	opacity: 0;
-}
-.item:hover .subitem{
+	transition: .5s ease; }
+#durian { /*And the pic has opacity 1.*/
 	opacity: 1;
-}
-.text{
+	transition: .5s ease; }
+#item1:hover { /*When the item hovers, change the color of the background.*/
+	background-color: #4CAF50;
+	transition: 1.2s ease; }
+#item1:hover #durian{ /*When the item hovers, make disappear the pic.*/
+	opacity: 0; }
+#item1:hover #subitem1{ /*When the item hovers, subitem with the text is displayed.*/
+	opacity: 1; }
+#subitem1 .text{ /*The displayed text.*/
 	background-color: white;
 	color:  #4CAF50;
 	font-size: 16px;
-	padding: 16px 32px;
+	padding: 10px 20px; }
+/*END FIRST ITEM*/
+/*SECOND ITEM*/
+#subitem2{ /*Initially its subitem has opacity 0.*/
+	opacity: 0;
+	transition: 1s ease; }
+#item2:hover #mangosteen{ /*When the item hovers, make disappear the pic.*/
+  	transform: scale(0.5) translate(0px, -100px);
+	transition: 1.2s ease;
 }
+#item2:hover #subitem2{ /*When the item hovers, subitem with the text is displayed.*/
+	opacity: 1; }
+#subitem2 .text{ /*The displayed text.*/
+	/*background-color: white;*/
+	transform: translate(0px, 50px);
+	color:  #4CAF50;
+	font-size: 16px;
+	padding: 10px 20px; }
+/*END SECOND ITEM*/
+/*THIRD ITEM*/
+#subitem3{ /*Initially its subitem has opacity 0.*/
+	opacity: 0;
+	transition: 1s ease; }
+#item3:hover #kiwano{ /*When the item hovers, make disappear the pic.*/
+  	transform: scale(0.5) translate(0px, -60px);
+	transition: 1s ease;
+}
+#item3:hover #subitem3{ /*When the item hovers, subitem with the text is displayed.*/
+	opacity: 1; }
+#subitem3 .text{ /*The displayed text.*/
+	/*background-color: white;*/
+	transform: translate(0px, 60px);
+	color:  #4CAF50;
+	font-size: 16px;
+	padding: 10px 20px; }
+/*END THIRD ITEM*/
+/*FOURTH ITEM*/
+#subitem4{ /*Initially its subitem has opacity 0.*/
+	opacity: 0;
+	transition: .5s ease; }
+#rambutan { /*And the pic has opacity 1.*/
+	opacity: 1;
+	transition: .5s ease; }
+#item4:hover { /*When the item hovers, change the color of the background.*/
+	background-color: #4CAF50;
+	transition: 1.2s ease; }
+#item4:hover #rambutan{ /*When the item hovers, make disappear the pic.*/
+	opacity: 0; }
+#item4:hover #subitem4{ /*When the item hovers, subitem with the text is displayed.*/
+	opacity: 1; }
+#subitem4 .text{ /*The displayed text.*/
+	background-color: white;
+	color:  #4CAF50;
+	font-size: 16px;
+	padding: 10px 20px; }
+/*END FOURTH ITEM*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
