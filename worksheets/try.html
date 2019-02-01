@@ -2,26 +2,23 @@
 <html>
 <head>
 	<title> main </title>
-	<link rel="stylesheet" type="text/css" href="styles.css">	
-	<script type="text/javascript">
-		window.onload = function(){
-			
-		}
-	</script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	<script type="text/javascript" src="main.js"></script>
 </head>
 <body>
 	<header id="header">
 		<div id="right_buttons">
 			<div id="languages_selection" class="button">
 				<div id="ru" class="language_button">
-					<p>ENG</p>
+					<span class="flag-icon flag-icon-ru" id="ru_icon"></span>
 				</div>
 				<div id="esp" class="language_button">
-					<p>ESP</p>
+					<span class="flag-icon flag-icon-es" id="esp_icon"></span>
 				</div>
 			</div>
 			<div id="login" class="button">
-				<p>LOG IN</p>
 			</div>
 		</div>
 		<br><br>
@@ -29,32 +26,46 @@
 	<nav id="menu_bar">
 		<div id="menu_items">
 			<div id="ini_button" class="button_menu">
-				<p class="button_text">Inicio</p>
+				<span class="button_text">Inicio </span>
+				<i class="fa fa-home" id="ini_icon" class="menu_icon ini"></i>
 			</div>
 			<div id="prod_button" class="button_menu">
-				<p class="button_text">Productos</p>
+				<span class="button_text">Productos</span>
+				<i class="fa fa-check-circle-o" id="prod_icon" class="menu_icon"></i>
 			</div>
 			<div id="brands_button" class="button_menu">
-				<p class="button_text">Marcas</p>
+				<span class="button_text">Marcas</span>
+				<i class="fa fa-shopping-bag" id="brands_icon" class="menu_icon"></i>
 			</div>
 			<div id="news_button" class="button_menu">
-				<p class="button_text">Eventos</p>
+				<span class="button_text">Eventos</span>
+				<i class="fa fa-hashtag" id="news_icon" class="menu_icon"></i>
 			</div>
 			<div id="contact_button" class="button_menu">
-				<p class="button_text">Contacto</p>
+				<span class="button_text">Contacto </span>
+				<i class="fa fa-envelope" id="contact_icon" class="menu_icon"></i>
 			</div>
 			<div id="clientzone_button" class="button_menu">
-				<p class="button_text">Zona cliente</p>
+				<span class="button_text">Mi zona</span>
+				<i class="fa fa-user-circle-o" id="clientzone_icon" class="menu_icon"></i>
 			</div>
+		</div>
+		<div id="list_menu">
+			aaaa
+			<br><br><br>
 		</div>
 		<nav id="submenu_bar">
 			<div id="submenu_items_container">
-				<div id="path" class="submenu_item"> PATH </div>
 				<div><br></div>
-				<div id="lupa" class="submenu_item"> 
-					<form action="/form.js">
-						<input type="text" name="search" placeholder="Busca..."
-						size="15px">
+				<div id="path_container" class="submenu_item"> 
+					<span id="path">Inicio >> </span>
+				</div>
+				<div><br></div>
+				<div id="lupa" class="submenu_item">
+					<form class="search_bar" action="action_page.php">
+  						<input type="text" placeholder="Buscar..." name="search">
+  						<br>
+  						<button type="submit"><i class="fa fa-search"></i></i></button>
 					</form>
 				</div>
 			</div>
