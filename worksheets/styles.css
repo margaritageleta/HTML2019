@@ -1,0 +1,151 @@
+html, body{
+	margin:0;
+	padding: 0;
+}
+#menu_bar{
+	background-color: black;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+}
+
+
+header{
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	
+	height: auto;
+	width: auto;
+
+	background-color: black;
+}
+
+#right_buttons{
+	height: 30px;
+	width: 200px;
+ 
+	padding: 10px;
+	background-color: rgb(240,240,240);
+
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.button{
+	height: 15px;
+	width: auto;
+	background-color: rgb(200,200,200);
+	margin: 4px;
+}
+
+#languages_selection{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.language_button{
+	background-color: red;
+	height: 15px;
+	width: 25%;
+}
+
+#menu_items{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	background-color: white;
+}
+.button_menu{
+	height: 20px;
+	width: auto;
+	background-color: white;
+	margin: 5px;
+	padding: 4px;
+
+	/*FOR BROWSERS' SUPPORT OF THE BORDER*/
+	-webkit-border-radius: 5px;	/*SAFARI, IOS, ANDROID*/
+	-moz-border-radius: 5px; 	/*FIREFOX*/
+	border-radius: 5px;			
+	border: 3px solid rgb(240,240,240);
+
+	/* Prevent background color leak outs */
+  	-webkit-background-clip: padding-box; 
+  	-moz-background-clip:    padding; 
+  	background-clip:         padding-box;
+
+	/* HOVER TRANDSITION */
+  	-webkit-transition-duration: 0.4s; /* Safari */
+  	transition-duration: 0.4s;
+
+  	cursor: pointer;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+
+}
+.button_text{
+	font-size: 16px;
+	/*font-family: Palatino;*/
+	font-family: Optima;
+	text-align: center;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-stretch: normal;
+  	color: grey;
+
+  	transition-duration: 0.4s;
+}
+
+#clientzone_button{ /*DISABLED*/
+	opacity: 0.6;
+  	cursor: not-allowed !important;
+}
+
+.button_menu:hover{
+	background-color: rgb(212,243,243);
+}
+
+.button_menu:hover .button_text{
+	color: black;
+}
+
+#submenu_bar{
+	background-color: rgb(240,240,240);
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+}
+
+#submenu_items_container{
+	display: grid;
+	grid-template-columns: 110px auto 60px;
+	/*grid-template-rows: 1fr 1fr 1fr;*/
+}
+
+.submenu_item{
+	background-color: rgb(255,255,255);
+	margin: 6px;
+}
+
+#path{
+	height: 15px;
+	width: 100px;
+}
+#lupa{
+	height: 15px;
+	width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

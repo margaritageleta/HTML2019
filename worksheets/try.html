@@ -2,27 +2,63 @@
 <html>
 <head>
 	<title> main </title>
-	<style type="text/css">
-		html, body{
-			margin:0;
-			padding: 0;
-		}
-		header{
-			background-color: rgb(142, 141, 137);
-		}
-		nav{
-			background-color: rgb(180, 141, 137);
-			position: sticky;
-			position: -webkit-sticky;
-			top: 0;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="styles.css">	
+	<script type="text/javascript">
+		alert('New');
+	</script>
 </head>
 <body>
-	<header>
-		<p> Some text </p>
+	<header id="header">
+		<div id="right_buttons">
+			<div id="languages_selection" class="button">
+				<div id="ru" class="language_button">
+					<p>ENG</p>
+				</div>
+				<div id="esp" class="language_button">
+					<p>ESP</p>
+				</div>
+			</div>
+			<div id="login" class="button">
+				<p>LOG IN</p>
+			</div>
+		</div>
 		<br><br>
 	</header>
+	<nav id="menu_bar">
+		<div id="menu_items">
+			<div id="ini_button" class="button_menu">
+				<p class="button_text">Inicio</p>
+			</div>
+			<div id="prod_button" class="button_menu">
+				<p class="button_text">Productos</p>
+			</div>
+			<div id="brands_button" class="button_menu">
+				<p class="button_text">Marcas</p>
+			</div>
+			<div id="news_button" class="button_menu">
+				<p class="button_text">Eventos</p>
+			</div>
+			<div id="contact_button" class="button_menu">
+				<p class="button_text">Contacto</p>
+			</div>
+			<div id="clientzone_button" class="button_menu">
+				<p class="button_text">Zona cliente</p>
+			</div>
+		</div>
+		<nav id="submenu_bar">
+			<div id="submenu_items_container">
+				<div id="path" class="submenu_item"> PATH </div>
+				<div>EMPTY</div>
+				<div id="lupa" class="submenu_item"> SEARCH </div>
+			</div>
+		</nav>
+	</nav>
+
+
+
+
+
+	<!--
 	<nav id="menu" class="nav nav_bar">
 		<br><br>
 		<div id="">
@@ -48,7 +84,7 @@
 		</div>
 	</nav>
 
-	<!--SLIDESHOW-->
+
 	<section id="slideshow">
 		<div class="wrapper-out">
 			<div class="wrapper-in">
@@ -64,7 +100,7 @@
 			
 		</div>
 	</section>
-	<!--FIN SLIDESHOW-->
+	FIN SLIDESHOW-->
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
