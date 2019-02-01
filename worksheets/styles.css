@@ -120,7 +120,7 @@ header{
 
 #submenu_items_container{
 	display: grid;
-	grid-template-columns: 110px auto 60px;
+	grid-template-columns: 110px auto 200px;
 	/*grid-template-rows: 1fr 1fr 1fr;*/
 }
 
@@ -135,7 +135,7 @@ header{
 }
 #lupa{
 	height: 15px;
-	width: 50px;
+	width: 175px;
 }
 
 

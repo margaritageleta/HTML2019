@@ -4,7 +4,9 @@
 	<title> main </title>
 	<link rel="stylesheet" type="text/css" href="styles.css">	
 	<script type="text/javascript">
-		alert('New');
+		window.onload = function(){
+			
+		}
 	</script>
 </head>
 <body>
@@ -48,8 +50,13 @@
 		<nav id="submenu_bar">
 			<div id="submenu_items_container">
 				<div id="path" class="submenu_item"> PATH </div>
-				<div>EMPTY</div>
-				<div id="lupa" class="submenu_item"> SEARCH </div>
+				<div><br></div>
+				<div id="lupa" class="submenu_item"> 
+					<form action="/form.js">
+						<input type="text" name="search" placeholder="Busca..."
+						size="15px">
+					</form>
+				</div>
 			</div>
 		</nav>
 	</nav>
