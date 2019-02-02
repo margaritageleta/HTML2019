@@ -7,6 +7,7 @@ html, body{
 	position: sticky;
 	position: -webkit-sticky;
 	top: 0;
+	z-index: 2;
 }
 
 
@@ -222,12 +223,33 @@ header{
 }
 
 #list_menu{
+	position: relative;
+	z-index: -1;
 	background-color: white;
 	width: 100%;
 	height: 0px;
 	transition-duration: 1s;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr; 
 }
 
+#list_menu div{
+	position: relative;
+	top: 0;
+	z-index: -1;
+	background-color: yellow;
+	margin: 10px;
+}
+
+section{
+	width: 100%;
+	height: auto;
+	position: relative;
+	background-color: red;
+	z-index: 1;
+}
 
 
 
