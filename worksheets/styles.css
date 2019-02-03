@@ -226,6 +226,27 @@ header{
 }
 
 #list_menu{
+	background-color: purple;
+	height: 0px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 44px;
+
+	display: grid;
+	grid-template-columns: 1fr 2fr 3fr;
+
+	transition-duration: 1s;
+}
+
+
+
+
+
+
+
+
+/*
+#list_menu{
 	position: relative;
 	background-color: purple;
 	width: 100%;
@@ -245,8 +266,7 @@ header{
 	background-color: yellow;
 	margin: 10px;
 	z-index: -100;
-}
-
+*/
 section{
 	width: 100%;
 	height: auto;
