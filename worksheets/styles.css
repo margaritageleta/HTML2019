@@ -63,23 +63,12 @@ header{
 	justify-content: center;
 }
 
-#esp_icon{
+#esp_icon, #ru_icon{
 	position: absolute;
 	width: 20px;
 	height: auto;
 }
-
-#ru_icon{
-	position: absolute;
-	width: 20px;
-	height: auto;
-
-}
-.language_button:hover #ru_icon{
-	transform: scale(1.5);
-	transition: 0.4s ease;
-}
-.language_button:hover #esp_icon{
+.language_button:hover #ru_icon, .language_button:hover #esp_icon{
 	transform: scale(1.5);
 	transition: 0.4s ease;
 }
@@ -154,7 +143,9 @@ header{
 }
 
 
-.button_menu:hover #ini_icon{
+.button_menu:hover #ini_icon, .button_menu:hover #prod_icon,
+.button_menu:hover #brands_icon, .button_menu:hover #news_icon,
+.button_menu:hover #contact_icon, .button_menu:hover #clientzone_icon{
 	opacity: 1;
 }
 
@@ -166,9 +157,6 @@ header{
 	transition-duration: 0.3s;
 }
 
-.button_menu:hover #prod_icon{
-	opacity: 1;
-}
 
 #prod_icon{
 	position: absolute;
@@ -176,10 +164,6 @@ header{
 	color: black;
 	opacity: 0;
 	transition-duration: 0.3s;
-}
-
-.button_menu:hover #brands_icon{
-	opacity: 1;
 }
 
 #brands_icon{
@@ -190,10 +174,6 @@ header{
 	transition-duration: 0.3s;
 }
 
-.button_menu:hover #news_icon{
-	opacity: 1;
-}
-
 #news_icon{
 	position: absolute;
 	padding-left: 52px;
@@ -202,9 +182,6 @@ header{
 	transition-duration: 0.3s;
 }
 
-.button_menu:hover #contact_icon{
-	opacity: 1;
-}
 
 #contact_icon{
 	position: absolute;
@@ -212,9 +189,6 @@ header{
 	color: black;
 	opacity: 0;
 	transition-duration: 0.3s;
-}
-.button_menu:hover #clientzone_icon{
-	opacity: 1;
 }
 
 #clientzone_icon{
@@ -241,7 +215,8 @@ header{
 	z-index: 10;
 }
 
-#prod_list_menu{
+#prod_list_menu, #brand_list_menu, 
+#news_list_menu, #contact_list_menu{
 	width: 100%;
 	height: 100%;
 
@@ -255,41 +230,18 @@ header{
 	/*background-color: rgb(240,240,240);*/
 	background-color: transparent;
 }
-#prod_list_menu div{
+#prod_list_menu div, #brand_list_menu div, 
+#news_list_menu div, #contact_list_menu div{
 	width: 100%;
 	height: 190px;
 	background-color: transparent;
 	/*border: 5px solid rgb(240,240,240);*/
 	padding: 10px;
 }
-#brand_list_menu{
-	opacity: 0;
-	transition-duration: 1s;
-	
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	position: absolute;
-}
-#news_list_menu{
-	opacity: 0;
-	transition-duration: 1s;
-	
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	position: absolute;
-}
-#contact_list_menu{
-	opacity: 0;
-	display: none;
-	transition-duration: 1s;
-	
-	grid-template-columns: 1fr 2fr;
-	position: absolute;
-}
 
 .item_list{
 	list-style: none;
-	background-color: pink;
+	background-color: transparent;
 	margin: 0;
   	padding: 0;
 }
@@ -303,16 +255,26 @@ header{
 .title_list{
 	text-align: left;
 	font-family: Optima;
+	font-weight: bold;
 	font-size: 28px;
 	font-variant: small-caps;
 	margin: 0;
 }
+.title_list a{
+	text-decoration: none;
+	color: black;
+}
+.title_list a:hover{
+	color: red;
+	transition-duration: 0.2s;
+}
 
 .item_list a {
 	text-decoration: none;
-  	color: #000;
+  	color: black;
   	display: block;
-  	width: 200px;
+  	width: 100%;
+  	margin: 0;
  
   	-webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
   	-moz-transition: font-size 0.3s ease, background-color 0.3s ease;
@@ -323,7 +285,9 @@ header{
 
 .item_list a:hover{
 	font-size: 20px;
-  	background: #f6f6f6;
+	color: red;
+	margin: 0;
+  	background: white;
 }
 
 
