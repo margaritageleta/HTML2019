@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		window.onload = function() {
+  			second = 1000;
+
+			function pad(num) {
+  				return ('0' + num).slice(-2);
+			}
+
+			function updateClock() {
+  				var clockEl = document.getElementById('clock');
+  				dateObj = new Date();
+  				clockEl.innerHTML = pad(dateObj.getHours()) + ':' + pad(dateObj.getMinutes()) + ':' + pad(dateObj.getSeconds());
+			}
+			setInterval(updateClock, second);
+
+  		var myVar = setInterval(myTimer, 1000);
+
+		function myTimer() {
+  			var d = new Date();
+  			var t = d.toLocaleTimeString();
+  			document.getElementById("clock2").innerHTML = t;
+  		}
+	}
+	</script>
+</head>
+<body>
+	<div id="clock"></div>
+	<div id="clock2"></div>
+</body>
+</html>
