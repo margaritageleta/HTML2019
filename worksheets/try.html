@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title> main </title>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
@@ -64,65 +65,88 @@
 	<!--END MENU BAR-->
 	<!--LIST MENU-->
 	<nav id="list_menu">
-		<div> 1 </div>
-		<div> 
-			<img src="images/potato.png" style="width: 100px; height: auto">
-		 </div>
-		<div> 3 </div>
-		
-	</nav>
-		<!--<div id="list_menu">
-			<div>1</div>
-			<div>2</div>
-			<div>3</div>
-			<div>4</div>
-			<div>5</div>
-			<div>6</div>
-			<div>7</div>
-			<div>8</div>
-			<div>9<span>Some text</span>></div>
+		<div id="prod_list_menu">
+			<div> 
+				<p class="title_list">Productos y servicios</p>
+             	<ul class="item_list">
+                	<li><a href="/">Televisión satélite</a></li>
+                	<li><a href="/">Televisión IP</a></li>
+                	<li><a href="/">Telecomunicaciones</a></li>
+               		<li><a href="/">Audiovisuales</a></li>
+               		<li><a href="/">Sistemas de seguridad</a></li>
+              	</ul>
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center;">
+            	<img src="images/potato.png" style="width: auto; height: 100%">
+            </div>
+            <div>
+            	<p>Welcome</p>
+            </div>
 		</div>
-	-->
-		<!--END LIST MENU-->
-		<!--SUBMENU BAR-->
-		<nav id="submenu_bar">
-			<div id="submenu_items_container">
-				<div><br></div>
-				<div id="path_container" class="submenu_item"> 
-					<span id="path">Inicio >> </span>
-				</div>
-				<div><br></div>
-				<div id="lupa" class="submenu_item">
-					<form class="search_bar" action="action_page.php">
-  						<input type="text" placeholder="Buscar..." name="search">
-  						<br>
-  						<button type="submit"><i class="fa fa-search"></i></i></button>
-					</form>
-				</div>
+		<div id="brand_list_menu">
+			<div>
+             	<ul>
+                	<li>A</li>
+                	<li>B</li>
+                	<li>C</li>
+               		<li>D</li>
+              	</ul>
+            </div>
+            <div>
+            	<img src="images/tomato.png" style="width: 100px; height: auto">
+            </div>
+		</div>
+		<div id="news_list_menu">
+			<div>
+             	<ul>
+                	<li>patata</li>
+                	<li>tomate</li>
+              	</ul>
+            </div>
+            <div>
+            	<img src="images/mushrooms.jpg" style="width: 100px; height: auto">
+            </div>
+		</div>
+		<div id="contact_list_menu">
+			<div>
+             	<ul>
+                	<li>patata</li>
+                	<li>tomate</li>
+              	</ul>
+            </div>
+            <div>
+            	<img src="images/mushrooms.jpg" style="width: 100px; height: auto">
+            </div>
+		</div>
+	</nav>
+	<!--END LIST MENU-->
+	<!--SUBMENU BAR-->
+	<nav id="submenu_bar">
+		<div id="submenu_items_container">
+			<div><br></div>
+			<div id="path_container" class="submenu_item"> 
+				<span id="path">Inicio >> </span>
 			</div>
-		</nav>
-		<!--END SUBMENU BAR-->
+			<div><br></div>
+			<div id="lupa" class="submenu_item">
+				<form class="search_bar" action="action_page.php">
+  					<input type="text" placeholder="Buscar..." name="search">
+  					<br>
+  					<button type="submit"><i class="fa fa-search"></i></i></button>
+				</form>
+			</div>
+		</div>
+	</nav>
+	<!--END SUBMENU BAR-->
 	<!--SECTION-->
 	<section id="sec">
 		SECTION1
 		<span>hi</span>
 		<br><p>hello</p>
-		<hr>
 	</section>
 	<!--END SECTION-->
-	<section>
-		SECTION2
-		<span>hi</span>
-		<br><p>hello</p>
-		<hr>
-	</section>
-	<section>
-		SECTION3
-		<span>hi</span>
-		<br><p>hello</p>
-		<hr>
-	</section>
-
+	<!--FOOTER-->
 	<footer>FOOTER</footer>
+	<!--END FOOTER-->
 </body>
 </html>
