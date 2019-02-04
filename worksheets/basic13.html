@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+	window.onload = function() {
+		var slideIndex = 1;
+		showSlides(slideIndex);
+		showSlidesAuto();
+
+		window.plusSlides = plusSlides; //make it global
+		// Next/previous controls
+		function plusSlides(n) {
+  			showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n) {
+  			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+  			var i;
+  			var slides = document.getElementsByClassName("slide");
+  			if (n > slides.length) {slideIndex = 1} 
+  			if (n < 1) {slideIndex = slides.length}
+  			for (i = 0; i < slides.length; i++) {
+  		    	slides[i].style.display = "none"; 
+  		    }
+  			slides[slideIndex-1].style.display = "block"; 
+
+  		}
+  		function showSlidesAuto() {
+  			var i;
+  			var slides = document.getElementsByClassName("slide");
+  			for (i = 0; i < slides.length; i++) {
+    			slides[i].style.display = "none"; 
+  			}
+  			slideIndex++;
+  			if (slideIndex > slides.length) {slideIndex = 1} 
+  			slides[slideIndex-1].style.display = "block"; 
+  			setTimeout(showSlidesAuto, 2000); // Change image every 2 seconds
+		}
+  	}
+	</script>
+	<style type="text/css">
+		/* Slideshow container */
+		.slideshow-container {
+  			position: relative;
+		}
+
+		/* Hide the images by default */
+		.slide {
+  			display: none;
+		}
+
+		.slide > img {
+
+  			width: 500px;
+  			height: auto;
+		}
+	</style>
+</head>
+<body>
+	<div id="slideshow_container">
+		<div class="slide fade">
+			<img src="images/red.png">
+		</div>
+		<div class="slide fade">
+			<img src="images/blue.png">
+		</div>
+		<div class="slide fade">
+			<img src="images/green.png">
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+
+</body>
+</html>
+
