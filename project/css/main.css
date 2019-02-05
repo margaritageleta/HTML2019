@@ -11,7 +11,7 @@ header{
 	position: relative;
 	z-index: 10;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	align-items: center;
 
 	background-color: black;
@@ -392,8 +392,9 @@ form.search_bar button:hover {
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
-/*	background-color: blue;*/
+}
 
+#prod_section_1, #prod_section_3{
 	background-image: url("../img/altered.jpg");
 	background-attachment: fixed;
   	background-position: center;
@@ -402,6 +403,11 @@ form.search_bar button:hover {
 
   	background-color: blue;
 }
+
+#prod_section_2{
+	background-color: black;
+}
+
 .section_elem > div{
 	display: flex; 
 	justify-content: center; 
@@ -418,33 +424,62 @@ form.search_bar button:hover {
 	margin: 8px;
 }
 .section_elem > div > div > div:last-child{
-	background-color: rgb(240,240,240); 
+	background-color: rgb(38, 38, 38);
 	width: 100%; 
 	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.section_elem > div > div > div:last-child span{
+	color: white;
+	font-family: Optima;
 }
 .section_elem > div > div > img{
 	width: 320px; 
 	height: 240px;
 	overflow: hidden;
 }
-#pic_one{
+#pic_1_1{
 	width: 320px; 
 	height: 240px;
-	background-image: url("../img/audio.png"); 
+	background-image: url("../img/bw_nautilus_2.png"); 
+	background-position: left;
+	background-size: cover;
+}
+#pic_1_2{
+	width: 320px; 
+	height: 240px;
+	background-image: url("../img/4g_generic.jpg"); 
 	background-position: center;
 	background-size: cover;
 }
-#pic_two{
+#pic_1_3{
 	width: 320px; 
 	height: 240px;
-	background-image: url("../img/carbon.jpg"); 
+	background-image: url("../img/artnovion5.jpg"); 
 	background-position: center;
 	background-size: cover;
 }
-#pic_three{
+#pic_2_1{
 	width: 320px; 
 	height: 240px;
-	background-image: url("../img/audio.png"); 
+	background-image: url("../img/oled_eisa.jpg"); 
+	background-position: left;
+	background-size: cover;
+}
+#pic_2_2{
+	width: 320px; 
+	height: 240px;
+	background-image: url("../img/denon_eisa.jpg"); 
+	background-position: center;
+	background-size: cover;
+}
+#pic_2_3{
+	width: 320px; 
+	height: 240px;
+	background-image: url("../img/philips_eisa.jpg"); 
 	background-position: center;
 	background-size: cover;
 }
