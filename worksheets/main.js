@@ -63,7 +63,7 @@ window.onload = function(){
 	};
 	menu_item[0].onmouseover = function() {
 		document.getElementById("list_menu").style.height = '0px';
-		document.getElementById("submenu_bar").style.top = '-243px';
+		document.getElementById("submenu_bar").style.top = '-43px';
 		///*
 		document.getElementById("prod_list_menu").style.opacity = '0';
 		document.getElementById("brand_list_menu").style.opacity = '0';
@@ -78,7 +78,7 @@ window.onload = function(){
 	};
 	menu_item[5].onmouseover = function() {
 		document.getElementById("list_menu").style.height = '0px';
-		document.getElementById("submenu_bar").style.top = '-243px';
+		document.getElementById("submenu_bar").style.top = '43px';
 		///*
 		document.getElementById("prod_list_menu").style.opacity = '0';
 		document.getElementById("brand_list_menu").style.opacity = '0';
@@ -92,7 +92,7 @@ window.onload = function(){
 	};
 	document.getElementById("header").onmouseover = function() {
 		document.getElementById("list_menu").style.height = '0px';
-		document.getElementById("submenu_bar").style.top = '-243px';
+		document.getElementById("submenu_bar").style.top = '43px';
 		///*
 		document.getElementById("prod_list_menu").style.opacity = '0';
 		document.getElementById("brand_list_menu").style.opacity = '0';
@@ -107,7 +107,7 @@ window.onload = function(){
 	};
 	document.getElementById("sec").onmouseover = function() {
 		document.getElementById("list_menu").style.height = '0px';
-		document.getElementById("submenu_bar").style.top = '-244px';
+		document.getElementById("submenu_bar").style.top = '43px';
 		///*
 		document.getElementById("prod_list_menu").style.opacity = '0';
 		document.getElementById("brand_list_menu").style.opacity = '0';
