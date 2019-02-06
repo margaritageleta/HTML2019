@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> main </title>
+	<title> Inicio </title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/ini.css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
 	<script type="text/javascript" src="js/main.js"></script>
@@ -37,26 +38,26 @@
 	<nav id="menu_bar">
 		<!--MENU ITEMS-->
 		<div id="menu_items">
-			<div id="ini_button" class="button_menu">
-				<span class="button_text">Inicio </span>
+			<a href="index.html"><div id="ini_button" class="button_menu">
+				<span class="button_text">Inicio</span>
 				<i class="fa fa-home" id="ini_icon" class="menu_icon ini"></i>
-			</div>
-			<div id="prod_button" class="button_menu">
+			</div></a>
+			<a href="prod.html"><div id="prod_button" class="button_menu">
 				<span class="button_text">Productos</span>
 				<i class="fa fa-check-circle-o" id="prod_icon" class="menu_icon"></i>
-			</div>
-			<div id="brands_button" class="button_menu">
+			</div></a>
+			<a href="brand.html"><div id="brands_button" class="button_menu">
 				<span class="button_text">Marcas</span>
 				<i class="fa fa-shopping-bag" id="brands_icon" class="menu_icon"></i>
-			</div>
-			<div id="news_button" class="button_menu">
+			</div></a>
+			<a href="event.html"><div id="news_button" class="button_menu">
 				<span class="button_text">Eventos</span>
 				<i class="fa fa-hashtag" id="news_icon" class="menu_icon"></i>
-			</div>
-			<div id="contact_button" class="button_menu">
+			</div></a>
+			<a href="contact.html"><div id="contact_button" class="button_menu">
 				<span class="button_text">Contacto </span>
 				<i class="fa fa-envelope" id="contact_icon" class="menu_icon"></i>
-			</div>
+			</div></a>
 			<div id="clientzone_button" class="button_menu">
 				<span class="button_text">Mi zona</span>
 				<i class="fa fa-user-circle-o" id="clientzone_icon" class="menu_icon"></i>
@@ -71,7 +72,7 @@
 		<div id="prod_list_menu">
 			<div class="first_elem_list"> 
 				<div>
-					<p class="title_list"><a href="/">Productos y servicios</a></p>
+					<p class="title_list"><a href="prod.html">Productos y servicios</a></p>
              		<ul class="item_list">
                 		<li><a href="/">Televisión satélite</a></li>
                 		<li><a href="/">Televisión IP</a></li>
@@ -100,7 +101,7 @@
 		<div id="brand_list_menu">
 			<div class="first_elem_list"> 
 				<div>
-					<p class="title_list"><a href="/">Marcas</a></p>
+					<p class="title_list"><a href="brand.html">Marcas</a></p>
              		<ul class="item_list">
                 		<li><a href="/">Ad notam</a></li>
                 		<li><a href="/">Arcam</a></li>
@@ -112,7 +113,7 @@
               		</ul>
               	</div>
             </div>
-            <div class="second_elem_list">
+            <div class="first_elem_list">
             	<div>
             		<ul class="item_list">
                 		<li><a href="/">Cambridge</a></li>
@@ -123,13 +124,13 @@
                			<li><a href="/">Emotiva</a></li>
                			<li><a href="/">Heos</a></li>
                			<li><a href="/">Kauber</a></li>
+               			<li><a href="/">Klipsch</a></li>
               		</ul>
             	</div>
             </div>
             <div class="third_elem_list">
             	<div>
              		<ul class="item_list">
-               			<li><a href="/">Klipsch</a></li>
                			<li><a href="/">Oppo</a></li>
                			<li><a href="/">Philips</a></li>
                 		<li><a href="/">Rotel</a></li>
@@ -198,7 +199,7 @@
 	<!--MAIN-->
 	<main id="main">
 		<!--SECTION-->
-		<section id="prod_section_1" class="section_elem">
+		<section id="ini_prod_section_1" class="section_elem">
 			<div>
 				<div>
 					<div id="pic_1_1"></div>
@@ -223,7 +224,7 @@
 		</section>
 		<!--END SECTION-->
 		<!--SECTION-->
-		<section id="prod_section_2" class="section_elem">
+		<section id="ini_prod_section_2" class="section_elem">
 			<div>
 				<div>
 					<div id="pic_2_1"></div>
@@ -251,10 +252,10 @@
 		</section>
 		<!--END SECTION-->
 		<!--SECTION-->
-		<section id="prod_section_3" class="section_elem">
+		<section id="ini_prod_section_3" class="section_elem">
 			<div>
 				<div>
-					<img src="img/sticky.jpg" alt="foto">
+					<div id="pic_3_1"></div>
 					<div>text</div>
 				</div>
 				<div>
@@ -275,17 +276,17 @@
 		<!--END SECTION-->
 		<!--FOOTER-->
 	<footer>
-		<div style="background-color: blue; width: 30%;
-		height: 80%;">
+		<div class="footer_subcontainer"">
 			1<br><br><br>
 		</div>
-		<div style="background-color: white;width: 30%;
-		height: 80%;">
+		<div class="footer_subcontainer">
 			2<br><br><br>
 		</div>
-		<div style="background-color: black;width: 30%;
-		height: 80%;">
+		<div class="footer_subcontainer">
 			3<br><br><br>
+		</div>
+		<div class="footer_subcontainer">
+			4<br><br><br>
 		</div>
 	</footer>
 	<!--END FOOTER-->
