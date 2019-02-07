@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="poke.js"></script>
+	<title>Pookemons</title>
+	<style type="text/css">
+		.tit{
+			font-weight: bold;
+			font-family: Arial;
+			border-top: 2px solid black; 
+			border-left: 2px solid black;
+			border-bottom: 2px solid black; 
+		}
+		*{
+			text-align: center;
+		}
+		#last_tit{
+			border-right: 2px solid black;
+		}
+		.data{
+			border-left: 2px solid black;
+			border-bottom: 2px solid black; 
+		}
+		#pokemon_table > div{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="pokemon_table" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; grid-row: 1fr 1fr;">
+		<div class="tit">Code</div>
+		<div class="tit">Normal Sprite</div>
+		<div class="tit">Shiny Sprite</div>
+		<div class="tit">Name</div>
+		<div class="tit">Type</div>
+		<div id="last_tit" class="tit">HM</div>
+
+		<div id="code" class="data"></div>
+		<div class="data">
+			<img id="normal_sprite">
+		</div>
+		<div class="data">
+			<img id="shiny_sprite">
+		</div>
+		<div id="name" class="data"></div>
+		<div id="type" class="data">
+			<ul id="lista">
+			</ul>
+		</div>
+		<div id="HM" class="data" style="border-right: 2px solid black;"></div>
+	</div>
+	<div id="bar">
+		<a id="prev" style="font-size: 20px;">&#10094;</a>
+		<input id="input_bar"type="search" name="search" placeholder="Write s Pokemon code or name..." style="width: 200px;">
+		<button id="btn">Search</button>
+  		<a id="next" style="font-size: 20px;">&#10095;</a>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
