@@ -2,17 +2,81 @@
 <html>
 <head>
 	<title> IMP 3 </title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript">
+		
+		var images = ["images/green.png", "images/red.png", "images/blue.png"];
+		var current_active = 0;
+
+		function check_index(){
+			if (current_active >= images.length) current_active = 0;	
+			else if (current_active < 0) current_active = images.length - 1;}
+		function auto_slide_switch () {
+			current_active = current_active + 1;
+			check_index();
+			$("#carousel").css("background-image", "url(" + images[current_active] + ")");}
+		function manual_slide_switch (direction){
+			current_active = current_active + direction;
+			check_index();
+			$("#carousel").css("background-image", "url(" + images[current_active] + ")");}
+		$().ready(function(){ // window.onload....
+			$("#carousel").css("background-image", "url(" + images[current_active] + ")");
+			setInterval(function(){
+				console.log(current_active);
+				auto_slide_switch();
+			}, 5000);
+			$("#next").click(function(){
+				console.log("click next");
+				manual_slide_switch(1);
+			});
+			$("#prev").click(function(){
+				console.log("click prev");
+				manual_slide_switch(-1);
+			});
+
+			second = 1000;
+
+			function pad(num) {
+  				return ('0' + num).slice(-2);
+			}
+
+			function updateClock() {
+  				var clockEl = document.getElementById('clock');
+  				dateObj = new Date();
+  				clockEl.innerHTML = pad(dateObj.getHours()) + ':' + pad(dateObj.getMinutes()) + ':' + pad(dateObj.getSeconds());
+			}
+			setInterval(updateClock, second);
+		
+
+			$("#input_bar").on('propertychange input', function (e) {
+			var valueChanged = false;
+
+			if (e.type=='propertychange') {
+		        valueChanged = e.originalEvent.propertyName=='value';
+		    } else {
+		        valueChanged = true;
+		    }
+		    if (valueChanged) {
+		    	var data = $("#input_bar").val();
+		        console.log(data);
+		        $("#output_bar").text(data);
+		    }
+	    });
+});
+
+	</script>
 </head>
 <body>
-	<header style="background-color: pink; width: 100%; height: 20%;">
-		<div id="carrousel_container" style="position: relative; background-color: lightyellow; width: 100%; height: auto; display: flex; align-items: center; justify-content: center;">
-				<img src="images/red.png" style="width: 50%; height: auto;">
+	<header style="background-color: pink; width: 100%; height: 20%; display: flex; justify-content: center;">
+		<div id="carousel" style="position: relative; width: 60%; height: 200px; display: flex; align-items: center; justify-content: center;">
 		</div>
-		<div id="clock" style="background-color: aquamarine; position: absolute; top: 20px; right: 30%;">clock</div>
+		<div id="clock" style="background-color: aquamarine; position: absolute; top: 20px; right: 30%;"></div>
 	</header>
 	<section style="background-color: lightgreen; display: flex; justify-content: space-around; align-items: center; width: 100%; height: 200px;">
-		<div style="background-color: black; height: 90%; width: 40%;">4</div>
-		<div style="background-color: cyan; height: 90%; width: 40%;">3</div>
+		<div style="background-color: green; height: 90%; width: 40%;">
+			<input id="input_bar" type="text" name="textin" style="width: 100%; text-align: left; padding-bottom: 160px;">		
+		</div>
+		<div style="background-color: cyan; height: 90%; width: 40%; display: flex; flex-wrap: wrap;"><span id="output_bar" style="width: 100%; word-wrap: break-word;"></span></div>
 	</section>
 	<footer style="background-color: pink; width: 100%; height: auto;">
 		<br>
