@@ -8,12 +8,12 @@ window.onload = function(){
 		document.getElementById("prod_list_menu").style.opacity = '1';
 		document.getElementById("brand_list_menu").style.opacity = '0';
 		document.getElementById("news_list_menu").style.opacity = '0';
-		//document.getElementById("contact_list_menu").style.opacity = '0';
+		document.getElementById("contact_list_menu").style.opacity = '0';
 		
 		document.getElementById("prod_list_menu").style.display = "grid";
 		document.getElementById("brand_list_menu").style.display = "none";
 		document.getElementById("news_list_menu").style.display = "none";
-		//document.getElementById("contact_list_menu").style.display = "none";
+		document.getElementById("contact_list_menu").style.display = "none";
 
 	};
 	menu_item[2].onmouseover = function() {
@@ -24,12 +24,12 @@ window.onload = function(){
 		document.getElementById("prod_list_menu").style.opacity = '0';
 		document.getElementById("brand_list_menu").style.opacity = '1';
 		document.getElementById("news_list_menu").style.opacity = '0';
-		//document.getElementById("contact_list_menu").style.opacity = '0';
+		document.getElementById("contact_list_menu").style.opacity = '0';
 		//*/
 		document.getElementById("prod_list_menu").style.display = "none";
 		document.getElementById("brand_list_menu").style.display = "grid";
 		document.getElementById("news_list_menu").style.display = "none";
-		//document.getElementById("contact_list_menu").style.display = "none";
+		document.getElementById("contact_list_menu").style.display = "none";
 	};
 	menu_item[3].onmouseover = function() {
 		document.getElementById("list_menu").style.height = '200px';
@@ -39,12 +39,12 @@ window.onload = function(){
 		document.getElementById("prod_list_menu").style.opacity = '0';
 		document.getElementById("brand_list_menu").style.opacity = '0';
 		document.getElementById("news_list_menu").style.opacity = '1';
-		//document.getElementById("contact_list_menu").style.opacity = '0';
+		document.getElementById("contact_list_menu").style.opacity = '0';
 		//*/
 		document.getElementById("prod_list_menu").style.display = "none";
 		document.getElementById("brand_list_menu").style.display = "none";
 		document.getElementById("news_list_menu").style.display = "grid";
-		//document.getElementById("contact_list_menu").style.display = "none";
+		document.getElementById("contact_list_menu").style.display = "none";
 	};
 	menu_item[4].onmouseover = function() {
 		document.getElementById("list_menu").style.height = '200px';
@@ -54,12 +54,12 @@ window.onload = function(){
 		document.getElementById("prod_list_menu").style.opacity = '0';
 		document.getElementById("brand_list_menu").style.opacity = '0';
 		document.getElementById("news_list_menu").style.opacity = '0';
-		//document.getElementById("contact_list_menu").style.opacity = '1';
+		document.getElementById("contact_list_menu").style.opacity = '1';
 		//*/
 		document.getElementById("prod_list_menu").style.display = "none";
 		document.getElementById("brand_list_menu").style.display = "none";
 		document.getElementById("news_list_menu").style.display = "none";
-		//document.getElementById("contact_list_menu").style.display = "grid";
+		document.getElementById("contact_list_menu").style.display = "grid";
 	};
 	menu_item[0].onmouseover = function() {
 		document.getElementById("list_menu").style.height = '0px';
@@ -68,12 +68,12 @@ window.onload = function(){
 		document.getElementById("prod_list_menu").style.opacity = '0';
 		document.getElementById("brand_list_menu").style.opacity = '0';
 		document.getElementById("news_list_menu").style.opacity = '0';
-		//document.getElementById("contact_list_menu").style.opacity = '0';
+		document.getElementById("contact_list_menu").style.opacity = '0';
 		//*/
 		document.getElementById("prod_list_menu").style.display = "none";
 		document.getElementById("brand_list_menu").style.display = "none";
 		document.getElementById("news_list_menu").style.display = "none";
-		//document.getElementById("contact_list_menu").style.display = "none";
+		document.getElementById("contact_list_menu").style.display = "none";
 
 	};
 	menu_item[5].onmouseover = function() {
@@ -83,12 +83,12 @@ window.onload = function(){
 		document.getElementById("prod_list_menu").style.opacity = '0';
 		document.getElementById("brand_list_menu").style.opacity = '0';
 		document.getElementById("news_list_menu").style.opacity = '0';
-		//document.getElementById("contact_list_menu").style.opacity = '0';
+		document.getElementById("contact_list_menu").style.opacity = '0';
 		//*/
 		document.getElementById("prod_list_menu").style.display = "none";
 		document.getElementById("brand_list_menu").style.display = "none";
 		document.getElementById("news_list_menu").style.display = "none";
-		//document.getElementById("contact_list_menu").style.display = "none";
+		document.getElementById("contact_list_menu").style.display = "none";
 	};
 	document.getElementById("header").onmouseover = function() {
 		document.getElementById("list_menu").style.height = '0px';
@@ -97,12 +97,12 @@ window.onload = function(){
 		document.getElementById("prod_list_menu").style.opacity = '0';
 		document.getElementById("brand_list_menu").style.opacity = '0';
 		document.getElementById("news_list_menu").style.opacity = '0';
-		//document.getElementById("contact_list_menu").style.opacity = '0';
+		document.getElementById("contact_list_menu").style.opacity = '0';
 		//*/
 		document.getElementById("prod_list_menu").style.display = "none";
 		document.getElementById("brand_list_menu").style.display = "none";
 		document.getElementById("news_list_menu").style.display = "none";
-		//document.getElementById("contact_list_menu").style.display = "none";
+		document.getElementById("contact_list_menu").style.display = "none";
 
 	};
 	document.getElementById("main").onmouseover = function() {
@@ -112,12 +112,12 @@ window.onload = function(){
 		document.getElementById("prod_list_menu").style.opacity = '0';
 		document.getElementById("brand_list_menu").style.opacity = '0';
 		document.getElementById("news_list_menu").style.opacity = '0';
-		//document.getElementById("contact_list_menu").style.opacity = '0';
+		document.getElementById("contact_list_menu").style.opacity = '0';
 		//*/
 		document.getElementById("prod_list_menu").style.display = "none";
 		document.getElementById("brand_list_menu").style.display = "none";
 		document.getElementById("news_list_menu").style.display = "none";
-		//document.getElementById("contact_list_menu").style.display = "none";
+		document.getElementById("contact_list_menu").style.display = "none";
 
 	};
 	

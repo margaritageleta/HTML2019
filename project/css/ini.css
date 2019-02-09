@@ -49,6 +49,9 @@
 	height: 290px; 
 	margin: 8px;
 }
+.section_elem > div > div > div:first-child{
+	position: relative;
+}
 .section_elem > div > div > div:last-child{
 	background-color: rgb(38, 38, 38);
 	width: 100%; 
@@ -95,6 +98,17 @@
 	background-position: left;
 	background-size: cover;
 }
+#pic_2_1 > div{
+	background-color: pink; 
+	height: 54px; 
+	width: 100px; 
+	position: absolute; 
+	bottom: 30px; 
+	right: 20px; 
+	background-image: url("../img/eisa_logo_2.png");
+	background-position: center;
+	background-size: cover;
+}
 #pic_2_2{
 	width: 320px; 
 	height: 240px;
@@ -106,6 +120,17 @@
 	width: 320px; 
 	height: 240px;
 	background-image: url("../img/philips_eisa.jpg"); 
+	background-position: center;
+	background-size: cover;
+}
+#pic_2_3 > div{
+	background-color: pink; 
+	height: 54px; 
+	width: 100px; 
+	position: absolute; 
+	bottom: 30px; 
+	left: 20px; 
+	background-image: url("../img/eisa_logo.png");
 	background-position: center;
 	background-size: cover;
 }

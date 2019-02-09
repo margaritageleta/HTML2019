@@ -1,7 +1,7 @@
 /*Styling of MAIN SECTIONS*/
 #main{
 	width: 100%; 
-	height: 9400px;
+	height: 11000px;
 	background-color: black; 
 }
 .section_elem{
@@ -91,7 +91,7 @@
 }
 #prod_section_6{
   	background-image: url("../img/bawilk.jpg");
-  	background-position: center;
+  	background-position: top;
   	background-size: cover;
 }
 #prod_section_6 > div > div{
@@ -121,7 +121,7 @@
 }
 #prod_section_10{
   	background-image: url("../img/dali.jpeg");
-  	background-position: center;
+  	background-position: top;
   	background-size: cover;
 }
 
@@ -163,7 +163,7 @@
 }
 #prod_section_18{
   	background-image: url("../img/philip2.jpeg");
-  	background-position: top;
+  	background-position: center;
   	background-size: cover;
 }
 #prod_section_19{
@@ -192,10 +192,30 @@
   	background-size: cover;
 }
 #prod_section_23 > div > div{
-	height: 300px;
-	width: 250px;
+	height: 200px;
+	width: 500px;
+}
+#prod_section_24{
+    background-image: url("../img/beauty.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#prod_section_25{
+    background-image: url("../img/pioneer1.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
+#prod_section_26{
+    background-image: url("../img/onkyo.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#prod_section_27{
+    background-image: url("../img/focal2.jpg");
+    background-position: center;
+    background-size: cover;
+}
 
 
 
