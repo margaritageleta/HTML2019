@@ -20,15 +20,20 @@
 	</style>
 	<script type="text/javascript">
 		function frame(){
-			var triangle = document.getElementById("triangle");
+			console.log("call");
+			// var triangle = document.getElementById("triangle");
 			var posX = Math.trunc(Math.random()*10);
 			var posY = Math.trunc(Math.random()*10); 
 			console.log("(" + posX + ", " + posY + ")");
-			triangle.style.transform = "translate(posX, posY)";	
+			document.getElementById("triangle").style.WebkitTransform = "translate(" + posX.toString() + "," + posY.toString() ")";	
+			// does not work!!!!!!!!!!
 		}
 
 		window.onload = function(){
-			setInterval(frame(), 3000);
+			console.log(1);
+			setInterval(function(){
+				frame();
+			}, 1000);
 		}
 	</script>
 </head>
