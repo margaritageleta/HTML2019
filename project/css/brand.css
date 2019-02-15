@@ -85,9 +85,13 @@
   	background-size: cover;
 }
 #prod_section_5{
-  	background-image: url("../img/beauty.jpg");
+  	background-image: url("../img/bose.jpg");
   	background-position: center;
   	background-size: cover;
+}
+#prod_section_5 > div > div{
+  height: 200px;
+  width: 400px;
 }
 #prod_section_6{
   	background-image: url("../img/bawilk.jpg");
@@ -103,10 +107,12 @@
   	background-size: cover;
 }
 #prod_section_7 > div > div{
-	width: 450px;
+  height: 200px;
+  width: 400px;
 }
 #prod_section_8{
-  	background-image: url("../img/beauty.jpg");
+  background-color: black;
+  	background-image: url("../img/cambiume.png");
   	background-position: center;
   	background-size: cover;
 }
@@ -115,14 +121,22 @@
 	width: 400px;
 }
 #prod_section_9{
-  	background-image: url("../img/beauty.jpg");
-  	background-position: center;
+  	background-image: url("../img/dhu.jpg");
+  	background-position: bottom;
   	background-size: cover;
+}
+#prod_section_9 > div > div{
+  height: 150px;
+  width: 400px;
 }
 #prod_section_10{
   	background-image: url("../img/dali.jpeg");
   	background-position: top;
   	background-size: cover;
+}
+#prod_section_10 > div > div{
+  height: 200px;
+  width: 400px;
 }
 
 /**/
@@ -131,35 +145,63 @@
   	background-position: center;
   	background-size: cover;
 }
+#prod_section_11 > div > div{
+  height: 150px;
+  width: 400px;
+}
 #prod_section_12{
   	background-image: url("../img/dune_neo.jpg");
   	background-position: center;
   	background-size: cover;
+}
+#prod_section_12 > div > div{
+  height: 200px;
+  width: 400px;
 }
 #prod_section_13{
   	background-image: url("../img/Emotiva.jpg");
   	background-position: center;
   	background-size: cover;
 }
+#prod_section_13 > div > div{
+  height: 200px;
+  width: 400px;
+}
 #prod_section_14{
   	background-image: url("../img/heos.jpg");
   	background-position: center;
   	background-size: cover;
+}
+#prod_section_14 > div > div{
+  height: 200px;
+  width: 400px;
 }
 #prod_section_15{
   	background-image: url("../img/large-kauber.jpg");
   	background-position: center;
   	background-size: cover;
 }
+#prod_section_15 > div > div{
+  height: 200px;
+  width: 400px;
+}
 #prod_section_16{
-  	background-image: url("../img/beauty.jpg");
+  	background-image: url("../img/audio.png");
   	background-position: center;
   	background-size: cover;
+}
+#prod_section_16 > div > div{
+  height: 200px;
+  width: 400px;
 }
 #prod_section_17{
   	background-image: url("../img/beauty.jpg");
   	background-position: center;
   	background-size: cover;
+}
+#prod_section_17 > div > div{
+  height: 200px;
+  width: 400px;
 }
 #prod_section_18{
   	background-image: url("../img/philip2.jpeg");
@@ -167,7 +209,7 @@
   	background-size: cover;
 }
 #prod_section_19{
-  	background-image: url("../img/beauty.jpg");
+  	background-image: url("../img/rotel.jpg");
   	background-position: center;
   	background-size: cover;
 }
@@ -182,9 +224,13 @@
   	background-size: cover;
 }
 #prod_section_22{
-  	background-image: url("../img/beauty.jpg");
+  	background-image: url("../img/sonos-one.jpg");
   	background-position: center;
   	background-size: cover;
+}
+#prod_section_22 > div > div{
+  height: 200px;
+  width: 400px;
 }
 #prod_section_23{
   	background-image: url("../img/cool.jpg");
@@ -196,14 +242,22 @@
 	width: 500px;
 }
 #prod_section_24{
-    background-image: url("../img/beauty.jpg");
+    background-image: url("../img/yha2.jpg");
     background-position: center;
     background-size: cover;
+}
+#prod_section_24 > div > div{
+  height: 200px;
+  width: 400px;
 }
 #prod_section_25{
     background-image: url("../img/pioneer1.jpg");
     background-position: center;
     background-size: cover;
+}
+#prod_section_25 > div > div{
+  height: 200px;
+  width: 400px;
 }
 
 #prod_section_26{
@@ -211,10 +265,18 @@
     background-position: center;
     background-size: cover;
 }
+#prod_section_26 > div > div{
+  height: 200px;
+  width: 400px;
+}
 #prod_section_27{
     background-image: url("../img/focal2.jpg");
     background-position: center;
     background-size: cover;
+}
+#prod_section_27 > div > div{
+  height: 200px;
+  width: 400px;
 }
 
 

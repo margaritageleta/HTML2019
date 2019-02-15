@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> med3 </title>
+	<style type="text/css">
+		#container{
+			width: 100%;
+			height: 500px;
+			background-color: lightyellow;
+			position: relative;
+		}
+		#triangle {
+			position: absolute;
+			width: 0;
+      		height: 0;
+      		border-left: 100px solid transparent;
+	      	border-right: 100px solid transparent;
+	      	border-bottom: 200px solid lightpink;
+		}
+	</style>
+	<script type="text/javascript">
+		function frame(){
+			var triangle = document.getElementById("triangle");
+			var posX = Math.trunc(Math.random()*10);
+			var posY = Math.trunc(Math.random()*10); 
+			console.log("(" + posX + ", " + posY + ")");
+			triangle.style.transform = "translate(posX, posY)";	
+		}
+
+		window.onload = function(){
+			setInterval(frame(), 3000);
+		}
+	</script>
+</head>
+<body>
+	<div id="container">
+		<div id="triangle"></div>
+	</div>
+</body>
+</html>
